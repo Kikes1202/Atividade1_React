@@ -7,7 +7,7 @@ interface CardProps{
     name: string,
     job: string,
     text: string,
-    tempo: string,
+    tempo: number,
     comentario: comentarioUsuario[];
 }
 
@@ -30,7 +30,7 @@ export  function Card({pfpicture, name, job, text, comentario, tempo}:CardProps)
 
     const[userCommentInfo, setUserCommentInfo] = useState<comentarioUsuario[]>([...comentario]);
     const[proximoId, setProximoId] = useState(1);
-    const[, setSegundos] = useState(0);
+    const[ , setSegundos] = useState(0);
     const[, setMinutos] = useState(0);
     const[, setHoras] = useState(0);
 
@@ -112,7 +112,7 @@ export  function Card({pfpicture, name, job, text, comentario, tempo}:CardProps)
                     </div>
                 </div>
                 <div className="header-timer">
-                    <p>{tempo}</p>
+                    <p>{formatarTempo(tempo)}</p>
                 </div>
             </div>
 

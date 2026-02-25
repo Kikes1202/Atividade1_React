@@ -12,9 +12,10 @@ export default function Cards(){
 
                  O site que eu estava fazendo tá 50% pronto,
 
-                vou mandar o repositório do github pra vcs aproveitarem alguma parte se for possivel.
+                vou mandar o repositório do github pra vcs aproveitarem alguma parte se for possivel. ' 
+                tempo={Date.now() -(1000 *60*60 *10)} 
 
-            ' tempo='publicado há 2h atrás' 
+
             comentario={[
                 {
                     id: 1,
@@ -85,7 +86,8 @@ export default function Cards(){
             Width 100% ✅️
             Maiusculos ✅️
             Hover a mais ✅️
-            Footer padronizado ✅️(eles estavam muito diferentes uns dos outros. Eu sei que no figma eles estavam diferentes mas enfim)' tempo='2h atrás' 
+            Footer padronizado ✅️(eles estavam muito diferentes uns dos outros. Eu sei que no figma eles estavam diferentes mas enfim)' tempo={Date.now() -(1000 *60*60 *2)} 
+ 
             comentario={[
                 {
                     id: 1,
