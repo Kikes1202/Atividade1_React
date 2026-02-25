@@ -1,3 +1,9 @@
+Esse Projeto foi bem desafiador pra mim, principalmente pelo prazo apertado no início. Fiz uma sprint de dois dias seguidos na quinta e na sexta pra fazer o trabalho, ate que recebi a mensagem no grupo de adiamento do prazo de entrega. Foi um alívio mas estava quase tudo pronto já. Eu tive que aprender muita coisa por fora das aulas da IN, principalmente sobre o fluxo de props, lifting state up e a compartimentalização dos componentes foi difícil de aprender em pouco tempo. Sobre materiais de Estudo, eu usei as aulas, documentação da W3 e IA. No caso da IA, eu usei ela mais como um suporte para quando eu realmente naão tinha IDEIA de como continuar. Eu pedia insights do meu codigo para a IA para entender mais como o fluxo de paraent-child e props funcionava, alem de pedir pra ela me explicar o porque certas partes nao estavam funcionando como o planejado. Dito isso, eu realmente tentei usar o mínimo possível de IA nesse projeto, no que concerne ao codigo em si, e garanto que aprendi MUITA coisa.
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
